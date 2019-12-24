@@ -1,0 +1,9 @@
+public String doubleChar(String str) {
+
+String name = "";
+
+    for (int i = 0; i <str.length();i++) {
+           name+= str.charAt(i);
+           name+= str.charAt(i); }
+           return name;
+}
